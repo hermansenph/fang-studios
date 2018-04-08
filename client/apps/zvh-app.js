@@ -7,7 +7,7 @@ export default class ZvhApp extends React.Component {
       <div id="zvh">
         <img id="zvh-header-img" src="images/zvh-header.jpg"/>
         <div id="zvh-header">
-          <h3 id="zvh-header-h3">ZvH: Zombies v. Humans</h3>
+          <h3 id="zvh-header-h3">ZvH: Zombies vs. Humans</h3>
           <div id="zvh-header-underline"></div>
         </div>
         <img id="zvh-title" src="images/zvh-title.jpg"/>
