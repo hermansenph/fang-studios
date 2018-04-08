@@ -43,7 +43,7 @@ body {
 #zvh-header-underline {
   margin: 0 auto;
   height: 2px;
-  width: 465px;
+  width: 483px;
   background-color: black;
 }
 
@@ -67,7 +67,7 @@ body {
   position: relative;
   height: 0;
   padding-bottom: 56.21%;
-  margin-bottom: 7vw;
+  margin-bottom: 5.3vw;
 }
 
 #zvh-yt-iframe {
