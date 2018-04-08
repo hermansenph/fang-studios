@@ -1,4 +1,5 @@
 import React from 'react'
+import HeaderApp from './apps/header-app'
 import ZvhApp from './apps/zvh-app'
 
 export default class App extends React.Component {
@@ -9,18 +10,12 @@ export default class App extends React.Component {
   }
 
   render() {
-
-    if (!this.state.page) {
-     return (
-       <div>
-          <div id="header">
-            <h1 id="header-text">FANG STUDIOS</h1>
-          </div>
-          <ZvhApp />
-       </div>
-     )
-   }
-
+    return (
+      <div>
+        <HeaderApp />
+        <ZvhApp />
+      </div>
+    )
   }
 
 }
