@@ -5,6 +5,6 @@ const app = express()
 
 app
   .use(express.static(path.join(__dirname, 'public')))
-  .listen(process.env.port || 3000, () => {
+  .listen(process.env.PORT || 3000, () => {
     console.log('Listening on :3000')
   })
