@@ -96,13 +96,13 @@ body {
 #support-email {
   margin: 0 auto;
   font-family: 'Source Sans Pro';
-  font-size: 20px;
 }
 
-#support-email-p {
+.support-p {
   margin: 0 auto;
   font-family: 'Source Sans Pro';
   line-height: 1em;
+  font-size: 18px;
 }
 
 .input {
