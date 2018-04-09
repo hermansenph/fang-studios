@@ -1,5 +1,7 @@
 import React from 'react'
+import HeaderApp from './apps/header-app'
 import ZvhApp from './apps/zvh-app'
+import SupportApp from './apps/support-app'
 
 export default class App extends React.Component {
 
@@ -10,16 +12,23 @@ export default class App extends React.Component {
 
   render() {
 
-    if (!this.state.page) {
-     return (
-       <div>
-          <div id="header">
-            <h1 id="header-text">FANG STUDIOS</h1>
-          </div>
+    if (!window.location.hash) {
+      return (
+        <div>
+          <HeaderApp />
           <ZvhApp />
-       </div>
-     )
-   }
+        </div>
+      )
+    }
+
+    if (window.location.hash === '#support') {
+      return (
+        <div>
+          <HeaderApp />
+          <SupportApp />
+        </div>
+      )
+    }
 
   }
 
