@@ -145,3 +145,8 @@ button:focus {
   border: 3px solid #00ce0a;
   border-radius: 2px;
 }
+
+#privacy {
+  margin: 65px 10vw;
+
+}
