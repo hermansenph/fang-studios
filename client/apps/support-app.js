@@ -47,12 +47,13 @@ export default class SupportApp extends React.Component {
         <h3 id="support-header-h3" className="h3">Support</h3>
         <form id="support-form">
           <div id="support-email">
-            <p id="support-email-p">Email</p>
+            <p className="support-p">Your Email</p>
             <input id="support-email-input" className="input"
               type="text" name="email"
               value={this.state.email}
               onChange={this.handleEmailChange}/>
           </div>
+          <p className="support-p">Description of Issue</p>
           <textarea className="input" name="Text1" cols="40" rows="5"
             value={this.state.text}
             onChange={this.handleTextChange}>
